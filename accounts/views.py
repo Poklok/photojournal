@@ -4,6 +4,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 
 # Create your views here.
 from django.views.generic import ListView, FormView
+from requests import request
 
 from accounts.models import Profile
 
